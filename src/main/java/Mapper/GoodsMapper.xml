@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Mapper.GoodsMapper">
+    <select id="findGoodsById" parameterType="int" resultType="Po.Goods">
+        select * from goods where id=#{id}
+    </select>
+
+    <select id="findAll" resultType="Po.Goods">
+        select * from goods
+    </select>
+
+    <select id="findAllSum" resultType="int">
+        select count(*) from goods
+    </select>
+
+    <select id="findGoodsByNameLike" parameterType="java.lang.String" resultType="Po.Goods">
+        select * from goods where name like concat(concat('%',#{name}),'%')
+    </select>
+
+    <insert id="addGoods" parameterType="Po.Goods" keyColumn="id">
+        insert into goods(name, type) value (#{name},#{type})
+    </insert>
+
+    <delete id="delGoodsById" parameterType="int">
+        delete from goods where id=#{id}
+    </delete>
+
+    <update id="updGoods" parameterType="Po.Goods">
+        update goods
+        set name=#{name},
+            type=#{type}
+        where id=#{id}
+    </update>
+</mapper>

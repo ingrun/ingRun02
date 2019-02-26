@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Mapper.WarehouseLogMapper">
+
+    <insert id="addWarehouseLog" parameterType="Po.WarehouseLog" >
+        insert into warehouse_log(goods_id, warehouse_id, factory_id,client_id, handlers_id, out_put, date, sum,current_inventory)
+          value (#{goods_id},#{warehouse_id},#{factory_id},#{client_id},#{handlers_id},#{out_put},#{date},#{sum},#{current_inventory})
+    </insert>
+
+    <select id="findAllWarehouseLog" resultType="Po.WarehouseLog">
+        select * from warehouse_log;
+    </select>
+
+    <delete id="delLog" parameterType="int">
+        delete from warehouse_log where id=#{id}
+    </delete>
+
+    <select id="findAllBy" resultType="Po.WarehouseLog">
+        select * from warehouse_log where 1=1
+        <if test="goods_id != null and goods_id !=-1">
+          and goods_id=#{goods_id}
+        </if>
+        <if test="warehouse_id !=null and warehouse_id !=-1"  >
+          and warehouse_id=#{warehouse_id}
+        </if>
+        <if test="factory_id !=null and factory_id !=-1">
+          and factory_id=#{factory_id}
+        </if>
+        <if test="client_id !=null and client_id !=-1">
+            and client_id=#{client_id}
+        </if>
+        <if test="out_put !=null and out_put !=''">
+            and out_put like concat(#{out_put})
+        </if>
+        <if test="handlers_id !=null and handlers_id !=-1">
+            and handlers_id=#{handlers_id}
+        </if>
+    </select>
+
+    <select id="findAllSumBy" resultType="int">
+        select count(*) from warehouse_log where 1=1
+        <if test="goods_id != null and goods_id !=-1">
+            and goods_id=#{goods_id}
+        </if>
+        <if test="warehouse_id !=null and warehouse_id !=-1"  >
+            and warehouse_id=#{warehouse_id}
+        </if>
+        <if test="factory_id !=null and factory_id !=-1">
+            and factory_id=#{factory_id}
+        </if>
+        <if test="client_id !=null and client_id !=-1">
+            and client_id=#{client_id}
+        </if>
+        <if test="out_put !=null and out_put !=''">
+            and out_put like concat(#{out_put})
+        </if>
+        <if test="handlers_id !=null and handlers_id !=-1">
+            and handlers_id=#{handlers_id}
+        </if>
+    </select>
+
+</mapper>
