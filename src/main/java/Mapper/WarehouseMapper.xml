@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Mapper.WarehouseMapper">
+    <select id="findWarehouseById" parameterType="int" resultType="Po.Warehouse">
+        select * from warehouse where id=#{id}
+    </select>
+
+    <select id="findAllWarehouse" resultType="Po.Warehouse">
+        select * from warehouse
+    </select>
+
+    <select id="findSum" resultType="int">
+        select count(*) from warehouse
+    </select>
+
+    <delete id="delWarehouseById" parameterType="int">
+        delete from warehouse where id=#{id}
+    </delete>
+
+    <update id="updWarehouse" parameterType="Po.Warehouse" >
+        update warehouse
+        set  name=#{name},
+        address=#{address}
+        where id=#{id}
+    </update>
+
+    <insert id="addWarehouse" parameterType="Po.Warehouse" keyColumn="id">
+        insert into warehouse(name, address) value (#{name},#{address})
+    </insert>
+
+</mapper>
