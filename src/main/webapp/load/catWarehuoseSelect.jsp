@@ -44,6 +44,7 @@
                             title : '数量(斤)'
                         },
                         {
+<<<<<<< HEAD
                             // field : 'operation',
                             // title : '操作',
                             // formatter : function(value, row, index) {
@@ -77,6 +78,18 @@
                                 'click .delete' : function(e,
                                                            value, row, index) {
                                     selectID = row.id;
+=======
+                            field : 'operation',
+                            title : '操作',
+                            formatter : function(value, row, index) {
+                                var d = '<button class="btn btn-danger btn-sm delete"><span>删除</span></button>';
+                                return d;
+                            },
+                            events : {
+                                'click .delete' : function(e,
+                                                           value, row, index) {
+                                    id = row.id;
+>>>>>>> cf0d4c6d7e7a9144a7d0ce573861bc9c6bd8d597
                                     $('#deleteWarning_modal').modal(
                                         'show');
                                 }
