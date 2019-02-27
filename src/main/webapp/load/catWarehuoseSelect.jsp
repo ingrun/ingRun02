@@ -44,41 +44,6 @@
                             title : '数量(斤)'
                         },
                         {
-<<<<<<< HEAD
-                            // field : 'operation',
-                            // title : '操作',
-                            // formatter : function(value, row, index) {
-                            //     var d = '<button class="btn btn-danger btn-sm delete"><span>删除</span></button>';
-                            //     return d;
-                            // },
-                            // events : {
-                            //     'click .delete' : function(e,
-                            //                                value, row, index) {
-                            //         id = row.id;
-                            //         $('#deleteWarning_modal').modal(
-                            //             'show');
-                            //     }
-                            // }
-
-                            field : 'operation',
-                            title : '操作',
-                            formatter : function(value, row, index) {
-                                var s = '<button class="btn btn-info btn-sm edit"><span>编辑</span></button>';
-                                var d = '<button class="btn btn-danger btn-sm delete"><span>删除</span></button>';
-                                var fun = '';
-                                return s + ' ' + d;
-                            },
-                            events : {
-                                // 操作列中编辑按钮的动作
-                                'click .edit' : function(e, value,
-                                                         row, index) {
-                                    selectID = row.id;
-                                    rowEditOperation(row);
-                                },
-                                'click .delete' : function(e,
-                                                           value, row, index) {
-                                    selectID = row.id;
-=======
                             field : 'operation',
                             title : '操作',
                             formatter : function(value, row, index) {
@@ -89,7 +54,6 @@
                                 'click .delete' : function(e,
                                                            value, row, index) {
                                     id = row.id;
->>>>>>> cf0d4c6d7e7a9144a7d0ce573861bc9c6bd8d597
                                     $('#deleteWarning_modal').modal(
                                         'show');
                                 }
