@@ -1,23 +1,12 @@
 package Controller;
 
-<<<<<<< HEAD
 import Po.User;
 import Service.UserService;
-=======
-import Po.Goods;
-import Po.User;
-import Service.UserService;
-import com.sun.deploy.net.HttpResponse;
->>>>>>> cf0d4c6d7e7a9144a7d0ce573861bc9c6bd8d597
 import org.springframework.stereotype.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-<<<<<<< HEAD
-=======
-import javax.servlet.ServletException;
->>>>>>> cf0d4c6d7e7a9144a7d0ce573861bc9c6bd8d597
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -51,10 +40,6 @@ public class UserController {
         for (Cookie cookie : cookies ){
             if(cookie.getName().equals("WarehouseUser")){
                 cookie.setMaxAge(0);   //设置Cookie有效时间为0  相当于清除Cookie
-<<<<<<< HEAD
-=======
-                cookie.setPath("/");
->>>>>>> cf0d4c6d7e7a9144a7d0ce573861bc9c6bd8d597
                 response.addCookie(cookie);
             }
         }
@@ -82,25 +67,15 @@ public class UserController {
     public String updPassword(String name,String oldPassword,String newPassword){
         if (oldPassword != newPassword && newPassword != name)
             return "error";
-<<<<<<< HEAD
         User user = userService.findUserByName(name);
         if (user!=null) {
-=======
-       User user = userService.findUserByName(name);
-       if (user!=null) {
->>>>>>> cf0d4c6d7e7a9144a7d0ce573861bc9c6bd8d597
            if (user.getPassword().equals(oldPassword)){
                 user.setPassword(newPassword);
                 if(userService.updUser(user)>0)
                     return "ok";
            }
-<<<<<<< HEAD
         }
         return "error";
-=======
-       }
-       return "error";
->>>>>>> cf0d4c6d7e7a9144a7d0ce573861bc9c6bd8d597
     }
 
 }
