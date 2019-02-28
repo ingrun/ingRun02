@@ -37,7 +37,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <span class="glyphicon glyphicon-user"></span>
                             <span>欢迎&nbsp;</span>
-                            <span id="nav_userName">用户名:${user.name}</span>
+                            <span id="nav_userName">用户名:${sessionScope.username}</span>
                             <!--小三角-->
                             <span class="caret"></span>
                         </a>

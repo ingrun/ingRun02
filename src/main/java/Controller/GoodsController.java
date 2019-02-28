@@ -1,13 +1,17 @@
 package Controller;
 
+
+/*
+*   货物
+*   查货物名称等
+*
+*
+* */
+
 import Po.Goods;
-import Po.Record;
 import Service.GoodsService;
-import com.fasterxml.jackson.databind.jsonFormatVisitors.JsonAnyFormatVisitor;
 import com.github.pagehelper.PageHelper;
-import jdk.nashorn.internal.runtime.JSONListAdapter;
 import net.sf.json.JSONArray;
-import net.sf.json.JsonConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -55,5 +55,41 @@
 
     <!-- 配置扫描@Service注解 -->
     <context:component-scan base-package="ServiceImpl"/>
+    <context:component-scan base-package="Shiro"/>
 
+
+    <bean  id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+        <property name="loginUrl" value="login.jsp"/>
+        <property name="unauthorizedUrl" value="403.jsp"/>
+        <property name="filterChainDefinitions">
+            <value>
+                /login.jsp = anon
+                /login = anon
+                /403.jsp = anon
+                /js/** = anon
+                /css/** = anon
+                /fonts/** = anon
+                /images/** = anon
+                /media/** = anon
+                /** = user
+                /* = authc
+            </value>
+        </property>
+    </bean>
+
+    <bean class="org.apache.shiro.web.mgt.DefaultWebSecurityManager" id="securityManager">
+        <property name="realm" ref="IAuthorizingRealm"/>
+        <property name="rememberMeManager" ref="cookieRememberMeManager"/>
+    </bean>
+
+    <bean class="org.apache.shiro.web.mgt.CookieRememberMeManager" id="cookieRememberMeManager">
+        <property name="cookie" ref="cookie"/>
+    </bean>
+
+    <bean class="org.apache.shiro.web.servlet.SimpleCookie" id="cookie">
+        <constructor-arg value="WarehouseUser"/>
+        <property name="httpOnly" value="true"/>
+        <property name="maxAge" value="604800"/>
+    </bean>
 </beans>

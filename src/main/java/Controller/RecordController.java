@@ -1,31 +1,32 @@
 package Controller;
 
-import Mapper.GoodsMapper;
+
+/*
+* 记录控制器
+* 添加删除修改记录
+* 上车 下货等
+*
+*
+* */
+
 import Po.*;
 import Service.GoodsService;
 import Service.MergeGoodsWarehouseService;
 import Service.WarehouseLogService;
 import Service.WarehouseService;
 import com.github.pagehelper.PageHelper;
-import com.sun.javafx.image.IntPixelAccessor;
 import net.sf.json.JSONArray;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.security.spec.ECField;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
 
-//登记仓库库存
-//登记仓库操作日志
+
 @Controller
 public class RecordController {
     @Autowired
