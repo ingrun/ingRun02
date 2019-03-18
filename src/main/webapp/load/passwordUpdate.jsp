@@ -131,8 +131,8 @@
                     <div class="form-group">
                         <label  class="control-label col-md-4 col-sm-4"> 用户名: </label>
                         <div class="col-md-8 col-sm-8">
-                            <span class="hidden" id="userName">${user.name }</span>
-                            <p class="form-control-static">${user.name }</p>
+                            <span class="hidden" id="userName">${sessionScope.username }</span>
+                            <p class="form-control-static">${sessionScope.username }</p>
                         </div>
                     </div>
 

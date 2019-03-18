@@ -12,9 +12,10 @@ import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-
+//自定义AuthorizingRealm  实现service提供认证数据。
 @Component
 public class IAuthorizingRealm extends AuthorizingRealm {
+
     @Autowired
     UserService userService;
 
