@@ -16,4 +16,7 @@ public interface MergeGoodsWarehouse {
     //查找某个仓库的总记录数
     public int findSum(int id);
 
+    //查询某个货物的全部库存及库存仓库信息
+    public List<Record> findGoodsSumById(int id);
+
 }

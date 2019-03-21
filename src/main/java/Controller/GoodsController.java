@@ -37,12 +37,26 @@ public class GoodsController {
     @ResponseBody
     public String findAll(int pageNum,int pageSize){
         int sum = goodsService.findAllSum();
-        String orderBy="type asc";
+        String orderBy="type asc";  //排序
         PageHelper.startPage(pageNum,pageSize,orderBy);
         List<Goods> goods = goodsService.findAll();
         JSONArray jsonArray = JSONArray.fromObject(goods);
         //return jsonArray.toString();
         return "{\"total\":"+sum+",\"rows\":"+jsonArray.toString()+"}";
+    }
+
+    @RequestMapping(value = "goods/findAllGoods", produces = "text/plain;charset=UTF-8")
+    @ResponseBody
+    public String findAllGoods(){
+        int sum = goodsService.findAllSum();
+        String orderBy="type asc";  //排序
+
+        //查询全部  所有不分页  查最多100条  使用该分页是为了排序。
+        PageHelper.startPage(1,100,orderBy);
+        List<Goods> goods = goodsService.findAll();
+        JSONArray jsonArray = JSONArray.fromObject(goods);
+
+        return jsonArray.toString();
     }
 
     @RequestMapping(value = "goods/addGoods", produces = "text/plain;charset=UTF-8")

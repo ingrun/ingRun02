@@ -83,7 +83,6 @@
                     <div id="collapse1" class="panel-collapse collapse collapseBody">
                         <div class="panel-body">
                             <ul class="list-group">
-
                                 <li class="list-group-item">
                                         <a href="javascript:void(0)" class="menu_item"
                                            name="load/catWarehuoseSelect.jsp">车辆货物查询</a>
@@ -91,6 +90,10 @@
                                 <li class="list-group-item">
                                         <a href="javascript:void(0)" class="menu_item"
                                            name="load/WarehouseManagement.jsp">仓库库存查询</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="javascript:void(0)" class="menu_item"
+                                       name="load/GoodsQuery.jsp">货物库存查询</a>
                                 </li>
                             </ul>
                         </div>

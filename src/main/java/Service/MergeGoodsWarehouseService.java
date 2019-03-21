@@ -12,4 +12,5 @@ public interface MergeGoodsWarehouseService {
     public int updRecord(Record record);
     public boolean delRecord(int id);
     public boolean addRecord(Record record);
+    public List<Record> findGoodsSumById(int id);
 }

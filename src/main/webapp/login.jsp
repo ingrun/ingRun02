@@ -15,11 +15,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 col-sm-3"></div>
-
 			<!-- 这一列为登陆表单 -->
-			<div class="col-md-4 col-sm-6">
-				<div class="panel panel-default">
-
+			<div  class="col-md-4 col-sm-6">
+				<div  id="Login_bg" class="panel panel-default">
 					<!-- 登陆面板的标题 -->
 					<div class="panel-title" style="text-align: center">
 						<h2>登录</h2>
@@ -73,5 +71,30 @@
 		src="${pageContext.request.contextPath}/js/bootstrapValidator.min.js"></script>
 	<script type="text/javascript"
 		src="${pageContext.request.contextPath}/js/jquery.md5.js"></script>
+	<style type="text/css">
+		body{
+			background-image: url(images/login_bg.jpg);
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#Login_bg{
+
+			background: rgba(216,216,216,0.3);      /*设置form表单透明度*/
+			/*margin: auto;*/
+			/*width:700px;*/
+			/*height: 480px;*/
+			/*top: 90px;*/
+			/*left: 333px;*/
+			/*position: absolute;*/
+			/*border-radius: 15px;*/
+			/*background: rgba(216,216,216,0.5);      !*设置form表单透明度*!*/
+			/*text-align: center;*/
+			/*overflow: hidden;*/
+
+		}
+	</style>
+
 </body>
 </html>

@@ -35,4 +35,8 @@
         select count(*) from merge_goods_warehouse where warehouse_id=#{id}
     </select>
 
+    <select id="findGoodsSumById" parameterType="int" resultType="Po.Record">
+        select * from merge_goods_warehouse where goods_id=#{id}
+    </select>
+
 </mapper>

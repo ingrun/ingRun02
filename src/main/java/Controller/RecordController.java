@@ -1,14 +1,10 @@
 package Controller;
 
-
 /*
 * 记录控制器
 * 添加删除修改记录
 * 上车 下货等
-*
-*
 * */
-
 import Po.*;
 import Service.GoodsService;
 import Service.MergeGoodsWarehouseService;
@@ -39,6 +35,8 @@ public class RecordController {
     private WarehouseLogService warehouseLogService;
 
 
+
+    //查询货物信息   传仓库的ID
     @RequestMapping(value = "findWareId" , produces = "text/plain;charset=UTF-8")
     @ResponseBody
     public String findAllRecordByWarehouseId(int id,HttpServletRequest request ){
@@ -130,4 +128,56 @@ public class RecordController {
         }
         return "error";
     }
+
+
+    //查询货物存储仓库及数量   参数 ： int GoodsID
+    @RequestMapping(value = "findGoodsSumById" , produces = "text/plain;charset=UTF-8")
+    @ResponseBody
+    public String findGoodsSumById(int id,HttpServletRequest request){
+
+        int pageNum = Integer.parseInt(request.getParameter("pageNum"));
+        int pageSize = Integer.parseInt(request.getParameter("pageSize"));
+        //int sum = mergeGoodsWarehouseService.findSum(id);  //查总数  加上总计
+
+        //仓库数量不添加的就是2个  现在写死在这了；
+        int sum = 2;
+
+                //分页
+        PageHelper.startPage(pageNum,pageSize);
+        List<Record> records = mergeGoodsWarehouseService.findGoodsSumById(id);
+        JSONArray jsonArray = new JSONArray();
+        Goods goods = null;
+        Warehouse warehouse = null;
+        int GoodsSum = 0;
+        for(Record record:records){
+            goods = goodsService.findGoodsById(record.getGoods_id());
+            warehouse = warehouseService.findWarehouseById(record.getWarehouse_id());
+            GoodsAndWarehouse goodsAndWarehouse = new GoodsAndWarehouse();
+            goodsAndWarehouse.setId(record.getId());
+
+            goodsAndWarehouse.setGoodsId(goods.getId());
+
+            goodsAndWarehouse.setGoodsName(goods.getName());
+
+            goodsAndWarehouse.setGoodsType(goods.getType());
+            GoodsSum += record.getSum();
+            goodsAndWarehouse.setSum(record.getSum());
+            goodsAndWarehouse.setWarehouseId(warehouse.getId());
+            goodsAndWarehouse.setWarehouseName(warehouse.getName());
+            jsonArray.add(goodsAndWarehouse);
+        }
+
+        GoodsAndWarehouse goodsAndWarehouse = new GoodsAndWarehouse();
+        goodsAndWarehouse.setGoodsName(goods.getName());
+        goodsAndWarehouse.setGoodsType(goods.getType());
+        goodsAndWarehouse.setGoodsId(goods.getId());
+        goodsAndWarehouse.setWarehouseName("总计");
+        goodsAndWarehouse.setSum(GoodsSum);
+        jsonArray.add(goodsAndWarehouse);
+
+        return "{\"total\":"+sum+",\"rows\":"+jsonArray.toString()+"}";
+    }
+
+
+
 }

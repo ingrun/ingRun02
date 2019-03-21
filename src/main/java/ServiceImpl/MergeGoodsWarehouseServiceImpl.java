@@ -52,4 +52,10 @@ public class MergeGoodsWarehouseServiceImpl implements MergeGoodsWarehouseServic
         return false;
     }
 
+    @Override
+    public List<Record> findGoodsSumById(int id) {
+        return mergeGoodsWarehouse.findGoodsSumById(id);
+
+    }
+
 }
