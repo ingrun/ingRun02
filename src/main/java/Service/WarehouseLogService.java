@@ -15,6 +15,8 @@ public interface WarehouseLogService {
                             int client_id,
                             String out_put,
                             int handlers_id);
+
+    //不用查询的约束可用 -1 表示空
     public List<WarehouseLog> findAllBy(int goods_id, int warehouse_id,
                                         int factory_id,int client_id,
                                         String out_put,int handlers_id);

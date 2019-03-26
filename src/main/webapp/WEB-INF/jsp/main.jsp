@@ -19,6 +19,7 @@
 </head>
 <body>
 
+
 <!-- 导航栏 -->
 <div id="navBar">
     <!-- 此处加载顶部导航栏 -->
@@ -131,6 +132,10 @@
                                 <li class="list-group-item">
                                     <a href="javascript:void(0)" class="menu_item"
                                        name="load/Log/WarehousePutLog.jsp">仓库入库记录</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="javascript:void(0)" class="menu_item"
+                                       name="load/Log/GoodsRecordLog.jsp">货物库存记录</a>
                                 </li>
                                 <li class="list-group-item">
                                     <a href="javascript:void(0)" class="menu_item"
@@ -298,7 +303,7 @@
         </div>
 
         <!-- 面板区域 -->
-        <div id="panel" class="col-md-10 col-sm-9">
+        <div id="panel" class="tw col-md-10 col-sm-9">
             <!--  此处异步加载各个面板 -->
 
             <!-- 欢迎界面 -->
@@ -374,5 +379,7 @@
         src="${pageContext.request.contextPath}/js/bootstrap-datetimepicker.min.js"></script>
 <script type="text/javascript"
         src="${pageContext.request.contextPath}/js/bootstrap-datetimepicker.zh-CN.js"></script>
+
+
 </body>
 </html>

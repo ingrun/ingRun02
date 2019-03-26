@@ -64,4 +64,17 @@ public class GoodsAndWarehouse {
     public void setSum(int sum) {
         this.sum = sum;
     }
+
+    public void setGoods(Goods goods){
+        setGoodsType(goods.getType());
+        setGoodsId(goods.getId());
+        setGoodsName(goods.getName());
+    }
+
+    public void setWarehouse(Warehouse warehouse){
+        setWarehouseName(warehouse.getName());
+        setWarehouseId(warehouse.getId());
+    }
+
+
 }

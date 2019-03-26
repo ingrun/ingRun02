@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @Controller
@@ -73,4 +74,52 @@ public class LogController {
         }
         return "error";
     }
+
+
+    //查询货物数量变化   参数 ： int GoodsID
+    @RequestMapping(value = "Log/findGoodsChangeById" , produces = "text/plain;charset=UTF-8")
+    @ResponseBody
+    public String findGoodsSumById(int id, HttpServletRequest request){
+
+        int pageNum = Integer.parseInt(request.getParameter("pageNum"));
+        int pageSize = Integer.parseInt(request.getParameter("pageSize"));
+
+        int sum = warehouseLogService.findAllSumBy(id,2,-1,-1,"%%库",-1);
+
+        //分页
+        String orderBy = "date desc";   //倒序排列
+        PageHelper.startPage(pageNum,pageSize,orderBy);
+
+        List<WarehouseLog> warehouseLogs = warehouseLogService.findAllBy(id,2,-1,-1,null,-1);
+
+        JSONArray jsonArray = new JSONArray();
+        for(WarehouseLog warehouseLog : warehouseLogs){
+            Goods goods = goodsService.findGoodsById(warehouseLog.getGoods_id());
+            Warehouse warehouse = warehouseService.findWarehouseById(warehouseLog.getWarehouse_id());
+            Handlers handlers = handlersService.findHandlersById(warehouseLog.getHandlers_id());
+            FactorySite factorySite = otherService.findFactorySiteById(warehouseLog.getFactory_id());
+            Client client = clientService.findClientById(warehouseLog.getClient_id());
+            WarehouseLogInfo warehouseLogInfo = new WarehouseLogInfo();
+            warehouseLogInfo.setId(warehouseLog.getId());
+            warehouseLogInfo.setGoods_name(goods.getName());
+            warehouseLogInfo.setGoods_type(goods.getType());
+            warehouseLogInfo.setWarehouse_name(warehouse.getName());
+            warehouseLogInfo.setHandlers_name(handlers.getName());
+            if(factorySite != null){
+                warehouseLogInfo.setFactory_name(factorySite.getName());
+            }
+            if(client != null){
+                warehouseLogInfo.setClient_name(client.getName());
+            }
+            warehouseLogInfo.setDate(warehouseLog.getDate());
+            warehouseLogInfo.setOut_put(warehouseLog.getOut_put());
+            warehouseLogInfo.setSum(warehouseLog.getSum());
+            warehouseLogInfo.setCurrent_inventory(warehouseLog.getCurrent_inventory());
+            jsonArray.add(warehouseLogInfo);
+        }
+
+        return "{\"total\":"+sum+",\"rows\":"+jsonArray.toString()+"}";
+    }
+
+
 }

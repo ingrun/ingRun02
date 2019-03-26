@@ -80,19 +80,7 @@
 		}
 
 		#Login_bg{
-
 			background: rgba(216,216,216,0.3);      /*设置form表单透明度*/
-			/*margin: auto;*/
-			/*width:700px;*/
-			/*height: 480px;*/
-			/*top: 90px;*/
-			/*left: 333px;*/
-			/*position: absolute;*/
-			/*border-radius: 15px;*/
-			/*background: rgba(216,216,216,0.5);      !*设置form表单透明度*!*/
-			/*text-align: center;*/
-			/*overflow: hidden;*/
-
 		}
 	</style>
 

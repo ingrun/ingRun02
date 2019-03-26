@@ -154,11 +154,8 @@ public class RecordController {
             warehouse = warehouseService.findWarehouseById(record.getWarehouse_id());
             GoodsAndWarehouse goodsAndWarehouse = new GoodsAndWarehouse();
             goodsAndWarehouse.setId(record.getId());
-
             goodsAndWarehouse.setGoodsId(goods.getId());
-
             goodsAndWarehouse.setGoodsName(goods.getName());
-
             goodsAndWarehouse.setGoodsType(goods.getType());
             GoodsSum += record.getSum();
             goodsAndWarehouse.setSum(record.getSum());
