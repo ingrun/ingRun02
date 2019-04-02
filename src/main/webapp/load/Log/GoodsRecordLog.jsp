@@ -10,10 +10,10 @@
 
 <script>
     $(function() {
-        storageListInit();
-        deleteStorageAction();
         carSelectorInit();
-    })
+        storageListInit();
+    });
+
     // 表格初始化
     function storageListInit() {
         $('#storageList')
@@ -149,32 +149,11 @@
     }
 
 
-    // 刪除库存信息
-    // function deleteStorageAction(){
-    //     $('#delete_confirm').click(function(){
-    //         var data = {
-    //             "id":id
-    //         }
-    //
-    //         // ajax
-    //         $.ajax({
-    //                 type : "GET",
-    //                 url : "del",
-    //                 dataType : "json",
-    //                 contentType : "application/json",
-    //                 data : data,
-    //                 success : function(response){
-    //                     $('#deleteWarning_modal').modal("hide");
-    //                     tableRefresh();
-    //                 },error : function(response){
-    //                     tableRefresh();
-    //                 }
-    //             }
-    //         )
-    //
-    //         $('#deleteWarning_modal').modal('hide');
-    //     })
-    // }
+    function OnclickChart(){
+        //var url = $(this).attr("name");
+        var url = 'load/Chart.jsp';
+        $('#panel').load(url);
+    }
 
 </script>
 
@@ -199,6 +178,11 @@
                                 <button id="queryButton" class="btn btn-default" type="button" data-dismiss="modal" onclick="tableRefresh()">
                                     <span>查询</span>
                                 </button>
+                                　　
+                                <button id="queryButton1" class="btn btn-default" type="button" data-dismiss="modal" onclick="OnclickChart()">
+                                    <span>折线图</span>
+                                </button>
+
                             </div>
 
                         </form>

@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 public class LogController {
@@ -61,6 +62,8 @@ public class LogController {
             warehouseLogInfo.setCurrent_inventory(warehouseLog.getCurrent_inventory());
             jsonArray.add(warehouseLogInfo);
         }
+
+
 
         return "{\"total\":"+sum+",\"rows\":"+jsonArray.toString()+"}";
     }

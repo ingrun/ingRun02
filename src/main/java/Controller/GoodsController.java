@@ -11,6 +11,7 @@ package Controller;
 import Po.Goods;
 import Service.GoodsService;
 import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import net.sf.json.JSONArray;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -28,7 +29,14 @@ public class GoodsController {
     @ResponseBody
     public String findGoodsByNameLike(String name){
         PageHelper.startPage(1,5);
+
+
         List<Goods> goods = goodsService.findGoodsByNameLike(name);
+
+//        PageInfo pageInfo = new PageInfo(goods);
+//
+//        System.out.println(pageInfo.getPages());
+
         JSONArray jsonArray = JSONArray.fromObject(goods);
         return jsonArray.toString();
     }

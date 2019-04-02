@@ -125,34 +125,6 @@
         })
     }
 
-
-    // 刪除库存信息
-    function deleteStorageAction(){
-        $('#delete_confirm').click(function(){
-            var data = {
-                "id":id
-            }
-
-            // ajax
-            $.ajax({
-                    type : "GET",
-                    url : "del",
-                    dataType : "json",
-                    contentType : "application/json",
-                    data : data,
-                    success : function(response){
-                        $('#deleteWarning_modal').modal("hide");
-                        tableRefresh();
-                    },error : function(response){
-                        tableRefresh();
-                    }
-                }
-            )
-
-            $('#deleteWarning_modal').modal('hide');
-        })
-    }
-
 </script>
 
 <div class="panel panel-default">

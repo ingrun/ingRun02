@@ -189,7 +189,7 @@
                     sex : $('#client_sex_edit').val(),
                     phone : $('#client_phone_edit').val(),
                     address : $('#client_address_edit').val(),
-                }
+                };
 
                 // ajax
                 $.ajax({
