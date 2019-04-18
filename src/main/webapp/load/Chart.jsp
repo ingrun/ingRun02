@@ -12,13 +12,13 @@
     myChart.setOption(option = {
         xAxis: {
             type: 'category',
-            data: ['0', '1', '2', '3', '4']
+            data: []
         },
         yAxis: {
             type: 'value'
         },
         series: [{
-            data: [0,0,0,0,0],
+            data: [],
             type: 'line',
             //smooth: true,   //折线带弧度
 
@@ -70,15 +70,17 @@
                 pageNum: 1
             } ,
             success : function(data){
+                var count = 1;
                 $.each(data.rows,function(index,elem){
-                    da.push(parseInt(elem.current_inventory));+
-                    de.push(elem.date);
+                    da.push(parseInt(elem.current_inventory));
+                    de.push(count++);
                 });
                 da.reverse();
-                de.reverse();
+                //de.reverse();
                 myChart.hideLoading();    //隐藏加载动画
                 myChart.setOption({        //加载数据图表
                     xAxis: {
+                        type: 'category',
                         data: de
                     },
                     series: [{

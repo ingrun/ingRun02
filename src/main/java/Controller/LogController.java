@@ -100,6 +100,7 @@ public class LogController {
             Goods goods = goodsService.findGoodsById(warehouseLog.getGoods_id());
             Warehouse warehouse = warehouseService.findWarehouseById(warehouseLog.getWarehouse_id());
             Handlers handlers = handlersService.findHandlersById(warehouseLog.getHandlers_id());
+
             FactorySite factorySite = otherService.findFactorySiteById(warehouseLog.getFactory_id());
             Client client = clientService.findClientById(warehouseLog.getClient_id());
             WarehouseLogInfo warehouseLogInfo = new WarehouseLogInfo();

@@ -73,7 +73,7 @@
 		src="${pageContext.request.contextPath}/js/jquery.md5.js"></script>
 	<style type="text/css">
 		body{
-			background-image: url(images/login_bg.jpg);
+			/*background-image: url(images/login_bg.jpg);*/
 			background-attachment: fixed;
 			background-repeat: no-repeat;
 			background-size: cover;

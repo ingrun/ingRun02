@@ -80,7 +80,7 @@ public class RecordController {
     public String addRecord(int goods_id,int warehouse_id,int sum,int factory_id){
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
         String date1 = df.format(new Date());// new Date()为获取当前系统时间
-        //
+
         Record record = new Record();
         record.setGoods_id(goods_id);
         record.setWarehouse_id(warehouse_id);
@@ -133,16 +133,12 @@ public class RecordController {
     //查询货物存储仓库及数量   参数 ： int GoodsID
     @RequestMapping(value = "findGoodsSumById" , produces = "text/plain;charset=UTF-8")
     @ResponseBody
-    public String findGoodsSumById(int id,HttpServletRequest request){
-
-        int pageNum = Integer.parseInt(request.getParameter("pageNum"));
-        int pageSize = Integer.parseInt(request.getParameter("pageSize"));
-        //int sum = mergeGoodsWarehouseService.findSum(id);  //查总数  加上总计
+    public String findGoodsSumById(int id, int pageNum, int pageSize ,HttpServletRequest request){
 
         //仓库数量不添加的就是2个  现在写死在这了；
         int sum = 2;
 
-                //分页
+        //分页
         PageHelper.startPage(pageNum,pageSize);
         List<Record> records = mergeGoodsWarehouseService.findGoodsSumById(id);
         JSONArray jsonArray = new JSONArray();

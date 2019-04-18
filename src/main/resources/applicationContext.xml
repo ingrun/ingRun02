@@ -41,12 +41,6 @@
                   value="classpath:mybatis-config.xml" />
     </bean>
 
-<!--
-    <bean id="UserDao" class="org.mybatis.spring.mapper.MapperFactoryBean">
-        <property name="mapperInterface" value="UserDao.UserDao"/>
-        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
-    </bean>
--->
     <!--Mybatis MapperScannerConfigurer 自动扫描 将Mapper接口生成代理注入到Spring-->
     <!-- 接口开发,扫描 包 ，写在此包下的接口即可被扫描到-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
@@ -78,10 +72,12 @@
         </property>
     </bean>
 
+    <!--shiro-->
     <bean class="org.apache.shiro.web.mgt.DefaultWebSecurityManager" id="securityManager">
         <property name="realm" ref="IAuthorizingRealm"/>
         <property name="rememberMeManager" ref="cookieRememberMeManager"/>
     </bean>
+
 
     <bean class="org.apache.shiro.web.mgt.CookieRememberMeManager" id="cookieRememberMeManager">
         <property name="cookie" ref="cookie"/>

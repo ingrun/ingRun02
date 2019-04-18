@@ -56,7 +56,7 @@
             and out_put like concat(#{out_put})
         </if>
         <if test="handlers_id !=null and handlers_id !=-1">
-            and handlers_id=#{handlers_id}
+            and handlers_name=#{handlers_name}
         </if>
     </select>
 

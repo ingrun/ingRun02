@@ -2,12 +2,16 @@ package TestMapper;
 
 import Mapper.MergeGoodsWarehouse;
 import Po.Record;
+import Po.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 
 @ContextConfiguration(locations = "classpath:applicationContext.xml")
@@ -15,15 +19,10 @@ import java.util.List;
 public class TestMerge {
     @Autowired
     private MergeGoodsWarehouse mergeGoodsWarehouse;
-//    @Test
-//    public void testadd(){
-//        Record record = new Record();
-//        record.setGoods_id(3);
-//        record.setWarehouse_id(2);
-//        record.setSum(600);
-//        int i = mergeGoodsWarehouse.addRecord(record);
-//        System.out.println(i);
-//    }
+    @Test
+    public void testadd(){
+
+    }
 //
 //    @Test
 //    public void testupd(){

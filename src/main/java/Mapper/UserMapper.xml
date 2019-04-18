@@ -11,6 +11,10 @@
         select * from user where name = #{name}
     </select>
 
+    <select id="findAllUser" resultType="Po.User">
+        select * from user
+    </select>
+
     <insert id="addUser" parameterType="Po.User" keyColumn="id">
         insert into user(name,password)
         value(#{name},#{password})

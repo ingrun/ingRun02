@@ -94,8 +94,17 @@ public class WarehouseLog {
 
     @Override
     public String toString() {
-        return "id:"+id+"\ngoods_id:"+goods_id+"\nwarehouse_id:"+
-                warehouse_id+"\nheandlers_id:"+handlers_id+
-                "\ndate:"+date+"\nout_put:"+out_put;
+        return "WarehouseLog{" +
+                "id=" + id +
+                ", goods_id=" + goods_id +
+                ", warehouse_id=" + warehouse_id +
+                ", handlers_id=" + handlers_id +
+                ", factory_id=" + factory_id +
+                ", client_id=" + client_id +
+                ", out_put='" + out_put + '\'' +
+                ", date='" + date + '\'' +
+                ", sum='" + sum + '\'' +
+                ", current_inventory='" + current_inventory + '\'' +
+                '}';
     }
 }

@@ -2,6 +2,7 @@ package Po;
 
 public class WarehouseLogInfo {
 
+
     private int id;
     private String goods_name;
     private String goods_type;

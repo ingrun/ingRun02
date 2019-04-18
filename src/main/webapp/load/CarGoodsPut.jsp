@@ -5,19 +5,14 @@
     var factoryId = null;// 工厂
 
     var stockin_goods = null;// 入库货物编号
-    var stockin_number = null;// 入库数量
 
-    var supplierCache = new Array();// 供应商信息缓存
     var goodsCache = new Array();//货物信息缓存
 
     $(function(){
         repositorySelectorInit();
         carSelectorInit();
         dataValidateInit();
-        // detilInfoToggle();
         stockInOption();
-        // fetchStorage();
-        // supplierAutocomplete();
         goodsAutocomplete();
     })
 

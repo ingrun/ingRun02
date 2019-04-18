@@ -151,7 +151,7 @@
 
 <div class="panel panel-default">
     <ol class="breadcrumb">
-        <li>车辆记录查询</li>
+        <li>全部记录查询</li>
     </ol>
     <div class="panel-body">
 

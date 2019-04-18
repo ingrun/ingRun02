@@ -1,3 +1,4 @@
+<%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -38,7 +39,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <span class="glyphicon glyphicon-user"></span>
                             <span>欢迎&nbsp;</span>
-                            <span id="nav_userName">用户名:${sessionScope.username}</span>
+                            <span id="nav_userName">用户名:${sessionScope.username} ${string}</span>
                             <!--小三角-->
                             <span class="caret"></span>
                         </a>
@@ -287,14 +288,24 @@
                                     <a href="javascript:void(0)" class="menu_item"
                                        name="load/passwordUpdate.jsp">更改密码</a>
                                 </li>
-                                <%--<li class="list-group-item">--%>
-                                    <%--<a href="javascript:void(0)" class="menu_item"--%>
-                                       <%--name="pagecomponent/userOperationRecorderManagement.html">系统日志</a>--%>
-                                <%--</li>--%>
-                                <%--<li class="list-group-item">--%>
-                                    <%--<a href="javascript:void(0)" class="menu_item"--%>
-                                       <%--name="pagecomponent/accessRecordManagement.html">登陆日志</a>--%>
-                                <%--</li>--%>
+                                <shiro:hasRole name="admin">
+                                    <li class="list-group-item">
+                                        <a href="javascript:void(0)" class="menu_item"
+                                           name="load/addUser.jsp">添加用户</a>
+                                    </li>
+                                </shiro:hasRole>
+                                <shiro:hasRole name="admin">
+                                    <li class="list-group-item">
+                                        <a href="javascript:void(0)" class="menu_item"
+                                           name="load/reSetUserPassword.jsp">重置用户密码</a>
+                                    </li>
+                                </shiro:hasRole>
+                                <shiro:hasRole name="admin">
+                                    <li class="list-group-item">
+                                        <a href="javascript:void(0)" class="menu_item"
+                                           name="load/delUser.jsp">删除用户</a>
+                                    </li>
+                                </shiro:hasRole>
                             </ul>
                         </div>
                     </div>
@@ -304,53 +315,7 @@
 
         <!-- 面板区域 -->
         <div id="panel" class="tw col-md-10 col-sm-9">
-            <!--  此处异步加载各个面板 -->
 
-            <!-- 欢迎界面 -->
-            <%--<div class="panel panel-default">--%>
-            <%--<!-- 面包屑 -->--%>
-            <%--<ol class="breadcrumb">--%>
-            <%--<li>主页</li>--%>
-            <%--</ol>--%>
-
-            <%--<div class="panel-body">--%>
-            <%--<div class="row" style="margin-top: 100px; margin-bottom: 100px">--%>
-            <%--<div class="col-md-1"></div>--%>
-            <%--<div class="col-md-10" style="text-align: center">--%>
-            <%--<div class="col-md-4 col-sm-4">--%>
-            <%--<a href="javascript:void(0)" class="thumbnail shortcut"> <img--%>
-            <%--src="media/icons/stock_search-512.png" alt="库存查询"--%>
-            <%--class="img-rounded link" style="width: 150px; height: 150px;">--%>
-            <%--<div class="caption">--%>
-            <%--<h3 class="title">库存查询</h3>--%>
-            <%--</div>--%>
-            <%--</a>--%>
-            <%--</div>--%>
-            <%--<div class="col-md-4 col-sm-4">--%>
-            <%--<a href="javascript:void(0)" class="thumbnail shortcut"> <img--%>
-            <%--src="media/icons/stock_in-512.png" alt="货物入库"--%>
-            <%--class="img-rounded link" style="width: 150px; height: 150px;">--%>
-            <%--<div class="caption">--%>
-            <%--<h3 class="title">货物入库</h3>--%>
-            <%--</div>--%>
-            <%--</a>--%>
-            <%--</div>--%>
-            <%--<div class="col-md-4 col-sm-4">--%>
-            <%--<a href="javascript:void(0)" class="thumbnail shortcut"> <img--%>
-            <%--src="media/icons/stock_out-512.png" alt="货物出库"--%>
-            <%--class="img-rounded link" style="width: 150px; height: 150px;">--%>
-            <%--<div class="caption">--%>
-            <%--<h3 class="title">货物出库</h3>--%>
-            <%--</div>--%>
-            <%--</a>--%>
-            <%--</div>--%>
-            <%--</div>--%>
-            <%--<div class="col-md-1"></div>--%>
-            <%--</div>--%>
-            <%--</div>--%>
-            <%--</div>--%>
-
-            <!-- end -->
         </div>
     </div>
 </div>

@@ -10,10 +10,20 @@
 
 <script>
     $(function() {
-        storageListInit();
-        deleteStorageAction();
+        clickAction();
         carSelectorInit();
-    })
+        storageListInit();
+    });
+
+    // 侧边栏点击事件
+    function clickAction() {
+        $(".menu_item").click(function() {
+            var url = $(this).attr("name");
+            $('#panel').load(url);
+        })
+    }
+
+
     // 表格初始化
     function storageListInit() {
         $('#storageList')
@@ -50,23 +60,7 @@
                         {
                             field : 'sum',
                             title : '数量(斤)'
-                        },
-                        {
-                            field : 'operation',
-                            title : '操作',
-                            formatter : function(value, row, index) {
-                                var d = '<button class="btn btn-danger btn-sm delete"><span>删除</span></button>';
-                                return d;
-                            },
-                            events : {
-                                'click .delete' : function(e,
-                                                           value, row, index) {
-                                    id = row.id;
-                                    $('#deleteWarning_modal').modal(
-                                        'show');
-                                }
-                            }
-                        } ],
+                        }],
                     url : 'findGoodsSumById',  //查询货物所存放仓库及数量
                     queryParams : queryParams,
                     method : 'GET',
@@ -78,7 +72,6 @@
                     pageNumber : 1,
                     pageSize : 10,
                     pageList : [10, 25, 50, 100 ],
-
                     clickToSelect : true
                 });
     }
@@ -148,6 +141,13 @@
                                 <button id="queryButton" class="btn btn-default" type="button" data-dismiss="modal" onclick="tableRefresh()">
                                     <span>查询</span>
                                 </button>
+
+                                <button id="" name="load/Chart.jsp" class="btn btn-default" type="button" data-dismiss="modal" >
+                                    <a href="javascript:void(0)"
+                                       ></a>
+                                    <span  class="menu_item" name="load/Chart.jsp">折线图</span>
+                                </button>
+
                             </div>
 
                         </form>
@@ -163,37 +163,4 @@
     </div>
 </div>
 
-<!-- 删除提示模态框 -->
-<div class="modal fade" id="deleteWarning_modal" table-index="-1"
-     role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button class="close" type="button" data-dismiss="modal"
-                        aria-hidden="true">&times;</button>
-                <h4 class="modal-title" >警告</h4>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3" style="text-align: center;">
-                        <img src="media/icons/warning-icon.png" alt=""
-                             style="width: 70px; height: 70px; margin-top: 20px;">
-                    </div>
-                    <div class="col-md-8 col-sm-8">
-                        <h3>是否确认删除该条库存信息</h3>
-                        <p>(注意：一旦删除该条库存信息，将不能恢复)</p>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-default" type="button" data-dismiss="modal">
-                    <span>取消</span>
-                </button>
-                <button class="btn btn-danger" type="button" id="delete_confirm">
-                    <span>确认删除</span>
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
 
