@@ -31,6 +31,7 @@
 						<!-- 表单 -->
 						<%--<form id="login_form" action="login" class="form-horizontal" method="post" >--%>
 						<form id="login_form" action="login" class="form-horizontal" method="post" >
+
 							<div class="form-group">
 								<label class="control-label col-md-4 col-sm-4">用户ID：</label>
 								<div class="col-md-7 col-sm-7">
@@ -48,6 +49,11 @@
 										placeholder="密码" name="password">
 								</div>
 							</div>
+
+							<div style=" width: 100% ;height: 100%;  color: #ff6653; text-align: center ">
+								${message}
+							</div>
+
 
 							<div>
 								<div class="col-md-4 col-sm-4"></div>

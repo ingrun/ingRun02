@@ -67,14 +67,14 @@ public class TestRecord {
 //        System.out.println(i);
 //    }
 //
-//    @Test
-//    public void testAdd(){
-//        Record record = new Record();
-//        record.setGoods_id(2);
-//        record.setWarehouse_id(2);
-//        record.setSum(200);
-//        mergeGoodsWarehouseService.addRecord(record);
-//    }
+    @Test
+    public void testAdd(){
+        Record record = new Record();
+        record.setGoods_id(9);  //id 为 9 的货物
+        record.setWarehouse_id(2);   // ID 为 2 的仓库
+        record.setSum(200);  //数量为200
+        mergeGoodsWarehouseService.addRecord(record);
+    }
 //
 //    @Test
 //    public void testFindGoods_idAndWarehouse_id(){

@@ -11,6 +11,7 @@ import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.stereotype.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -41,7 +42,7 @@ public class UserController {
 
     @RequestMapping(value = "login", method = RequestMethod.POST)
     public String login(String name, String password, HttpServletResponse response,
-                        HttpServletRequest httpServletRequest){
+                        HttpServletRequest httpServletRequest, Model model){
         User user = new User();
         user.setName(name);
         user.setPassword(password);
@@ -52,7 +53,8 @@ public class UserController {
         try {
             subject.login(token);
         } catch (AuthenticationException e) {
-            return "403";
+            model.addAttribute("message","用户名或密码不正确");
+            return "login";
         }
         return "redirect:home";
     }

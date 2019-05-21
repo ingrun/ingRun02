@@ -14,13 +14,12 @@ public class TestUserService {
     @Autowired
     private UserService userService;
 
-//    @Test
-//    public void testIsNamePassword(){
-//        User user = new User();
-//        user.setName("admin");
-//        user.setPassword("123456");
-//        System.out.println(userService.isNamePassword(user));
-//    }
-
+    @Test
+    public void testIsNamePassword(){
+        User user = new User();
+        user.setName("admin");
+        user.setPassword("12345678");
+        System.out.println(userService.isNamePassword(user));
+    }
 
 }

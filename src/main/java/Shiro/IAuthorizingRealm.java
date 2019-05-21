@@ -25,7 +25,8 @@ public class IAuthorizingRealm extends AuthorizingRealm {
 
     //授权
     @Override
-    protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
+    protected AuthorizationInfo doGetAuthorizationInfo(
+            PrincipalCollection principalCollection) {
         String username = (String)principalCollection.getPrimaryPrincipal();
         Set<String> roles = new HashSet<>();
         roles.add("user");
@@ -34,8 +35,6 @@ public class IAuthorizingRealm extends AuthorizingRealm {
         }
         SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo(roles);
         return simpleAuthorizationInfo;
-
-
     }
 
     //认证
