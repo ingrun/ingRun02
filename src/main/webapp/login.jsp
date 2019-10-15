@@ -51,7 +51,7 @@
 								<div class="col-md-4 col-sm-4"></div>
 								<div class="col-md-4 col-sm-4">
 									<button id="submit" type="submit" class="btn btn-primary">
-										&nbsp;&nbsp;&nbsp;&nbsp;登陆&nbsp;&nbsp;&nbsp;&nbsp;</button>
+										&nbsp;&nbsp;&nbsp;&nbsp;登录&nbsp;&nbsp;&nbsp;&nbsp;</button>
 								</div>
 								<div class="col-md-4 col-sm-4"></div>
 							</div>

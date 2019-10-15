@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ingRun02:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97021b34-a8cc-4ab5-a780-91f5fc7d5659" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ingRun02@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ingRun02@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ingRun02@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ingrun02: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/load/addUser.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3542">
+              <caret line="161" column="23" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/load/ClientPage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/403.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7634">
+              <caret line="347" column="17" selection-start-line="347" selection-start-column="17" selection-end-line="347" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>json</find>
+      <find>findAllRecordByWarehouse</find>
+      <find>findWareId</find>
+      <find>selectByPrimaryKey</find>
+      <find>passwordEditSuccess</find>
+      <find>clean</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/css/model/login/login.css" />
+        <option value="$PROJECT_DIR$/src/main/java/Mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Po/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Po/Warehouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Po/Record.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mapper/MergeGoodsWarehouse.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Interceptor/UserInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Po/GoodsAndWarehouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/WarehouseLogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/DataTimeTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/Test/util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/load/ClientPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/load/passwordUpdate.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/load/Log/GoodsRecordLog.jsp" />
+        <option value="$PROJECT_DIR$/src/Test/TestService/TestOther.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/load/CarGoodsPut.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/load/Chart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/load/reSetUserPassword.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/06ae1f9a-5244-4ed4-bd06-a9ddc3b95b75/console_2.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/Po/WarehouseLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shiro/util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Po/WarehouseLogInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/LogController.java" />
+        <option value="$PROJECT_DIR$/src/Test/TestMapper/TestWarehouseMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mapper/WarehouseLogMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ServiceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/load/delUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/load/addUser.jsp" />
+        <option value="$PROJECT_DIR$/src/Test/TestMapper/TestMerge.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/load/Log/AllLog.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/load/GoodsPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/load/GoodsQuery.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/RecordController.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/Test/TestMapper/Test01.java" />
+        <option value="$PROJECT_DIR$/src/Test/TestService/TestUserService.java" />
+        <option value="$PROJECT_DIR$/src/Test/TestService/TestRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shiro/IAuthorizingRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Shiro/erroe.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ingRun02 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ingRun02 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="244" />
+    <option name="y" value="-13" />
+    <option name="width" value="910" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ingRun02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ingRun02" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558445494261" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="F:/qq/997417229/FileRecv/Mybatis Generator/src/cn/tosun/manager" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ingRun02\src\main\webapp\js" />
+      <recent name="D:\ingRun02\src\main\webapp\images" />
+      <recent name="D:\ingRun02\src\main\webapp" />
+      <recent name="D:\ingRun02\src\main\webapp\WEB-INF" />
+      <recent name="D:\ingRun02" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ingRun02\src\main\webapp\js" />
+      <recent name="D:\ingRun02\src\main\webapp\css" />
+      <recent name="D:\ingRun02\src\main\webapp\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.ingRun02">
+    <configuration name="TestMerge.testadd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ingRun02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestMapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestMapper" />
+      <option name="MAIN_CLASS_NAME" value="TestMapper.TestMerge" />
+      <option name="METHOD_NAME" value="testadd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOther.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ingRun02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestService" />
+      <option name="MAIN_CLASS_NAME" value="TestService.TestOther" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRecord.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ingRun02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestService" />
+      <option name="MAIN_CLASS_NAME" value="TestService.TestRecord" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserService.testIsNamePassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ingRun02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestService" />
+      <option name="MAIN_CLASS_NAME" value="TestService.TestUserService" />
+      <option name="METHOD_NAME" value="testIsNamePassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWarehouseMapper.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ingRun02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestMapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestMapper" />
+      <option name="MAIN_CLASS_NAME" value="TestMapper.TestWarehouseMapper" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ingRun02" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.341" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ingRun02" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ingRun02:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ingRun02" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ingRun02" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9570" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ingRun02:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRecord.testAdd" />
+        <item itemvalue="JUnit.TestUserService.testIsNamePassword" />
+        <item itemvalue="JUnit.TestMerge.testadd" />
+        <item itemvalue="JUnit.TestWarehouseMapper.test" />
+        <item itemvalue="JUnit.TestOther.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97021b34-a8cc-4ab5-a780-91f5fc7d5659" name="Default Changelist" comment="" />
+      <created>1548395614223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548395614223</updated>
+      <workItem from="1548395620605" duration="16702000" />
+      <workItem from="1548481384082" duration="16563000" />
+      <workItem from="1548665066451" duration="16000" />
+      <workItem from="1548666028449" duration="999000" />
+      <workItem from="1548742730324" duration="12290000" />
+      <workItem from="1548834461402" duration="2842000" />
+      <workItem from="1548910703221" duration="15419000" />
+      <workItem from="1549005131856" duration="12142000" />
+      <workItem from="1549079653657" duration="17041000" />
+      <workItem from="1549161545575" duration="1314000" />
+      <workItem from="1549345597892" duration="11998000" />
+      <workItem from="1549419729828" duration="1689000" />
+      <workItem from="1549601291346" duration="13568000" />
+      <workItem from="1549622646234" duration="457000" />
+      <workItem from="1549688446302" duration="13076000" />
+      <workItem from="1549710736223" duration="1775000" />
+      <workItem from="1549771967570" duration="2050000" />
+      <workItem from="1549867913224" duration="28000" />
+      <workItem from="1550211105430" duration="27000" />
+      <workItem from="1551014633055" duration="3353000" />
+      <workItem from="1551060005103" duration="18572000" />
+      <workItem from="1551087369949" duration="1943000" />
+      <workItem from="1551143846719" duration="2180000" />
+      <workItem from="1551149458266" duration="840000" />
+      <workItem from="1551164394913" duration="3506000" />
+      <workItem from="1551232404303" duration="4537000" />
+      <workItem from="1551341533058" duration="2291000" />
+      <workItem from="1552142374922" duration="1130000" />
+      <workItem from="1552383723528" duration="84000" />
+      <workItem from="1552385297348" duration="87000" />
+      <workItem from="1552897813085" duration="59000" />
+      <workItem from="1552898677773" duration="3916000" />
+      <workItem from="1552978859745" duration="7683000" />
+      <workItem from="1553073521816" duration="3057000" />
+      <workItem from="1553131018731" duration="6463000" />
+      <workItem from="1553142507344" duration="8011000" />
+      <workItem from="1553351853112" duration="1221000" />
+      <workItem from="1553420662522" duration="4248000" />
+      <workItem from="1553427267238" duration="2169000" />
+      <workItem from="1553523620669" duration="791000" />
+      <workItem from="1553615010372" duration="3710000" />
+      <workItem from="1553771527991" duration="2733000" />
+      <workItem from="1553784542648" duration="949000" />
+      <workItem from="1553917056544" duration="1130000" />
+      <workItem from="1553934102307" duration="2288000" />
+      <workItem from="1554035038828" duration="10612000" />
+      <workItem from="1554108530270" duration="6497000" />
+      <workItem from="1554133044961" duration="1192000" />
+      <workItem from="1554217217119" duration="2761000" />
+      <workItem from="1554293051630" duration="652000" />
+      <workItem from="1554299061770" duration="1990000" />
+      <workItem from="1554360358593" duration="77000" />
+      <workItem from="1554360851652" duration="9881000" />
+      <workItem from="1554456636564" duration="5612000" />
+      <workItem from="1554465331845" duration="115000" />
+      <workItem from="1554727871030" duration="2371000" />
+      <workItem from="1554799159944" duration="1071000" />
+      <workItem from="1554805713610" duration="1413000" />
+      <workItem from="1554807395985" duration="1515000" />
+      <workItem from="1554814857647" duration="300000" />
+      <workItem from="1554901899763" duration="71000" />
+      <workItem from="1554903456324" duration="1241000" />
+      <workItem from="1554906957178" duration="4074000" />
+      <workItem from="1554948024831" duration="1299000" />
+      <workItem from="1554952028578" duration="1485000" />
+      <workItem from="1555344354962" duration="595000" />
+      <workItem from="1555404580854" duration="6833000" />
+      <workItem from="1555483854040" duration="2786000" />
+      <workItem from="1555488295516" duration="325000" />
+      <workItem from="1555489148534" duration="2626000" />
+      <workItem from="1555563056979" duration="11911000" />
+      <workItem from="1555575808444" duration="32000" />
+      <workItem from="1555662977662" duration="5198000" />
+      <workItem from="1555749541649" duration="2977000" />
+      <workItem from="1555914174659" duration="1057000" />
+      <workItem from="1555925608129" duration="743000" />
+      <workItem from="1556007507356" duration="1279000" />
+      <workItem from="1556111377890" duration="3157000" />
+      <workItem from="1556166515904" duration="1283000" />
+      <workItem from="1556525386770" duration="57000" />
+      <workItem from="1557825835107" duration="798000" />
+      <workItem from="1557976407505" duration="1449000" />
+      <workItem from="1557993965703" duration="1267000" />
+      <workItem from="1558336428596" duration="29000" />
+      <workItem from="1558443483877" duration="1642000" />
+      <workItem from="1558497673389" duration="1242000" />
+      <workItem from="1558506770752" duration="930000" />
+      <workItem from="1558508216997" duration="177000" />
+      <workItem from="1558772400333" duration="646000" />
+      <workItem from="1558862280163" duration="113000" />
+      <workItem from="1558885276065" duration="706000" />
+      <workItem from="1561122128297" duration="1504000" />
+      <workItem from="1561172412113" duration="730000" />
+      <workItem from="1561368705710" duration="376000" />
+    </task>
+    <task id="LOCAL-00001" summary="cCcx">
+      <created>1551234529320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551234529320</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cCcx">
+      <created>1551234622098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551234622098</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cCcx">
+      <created>1551234767575</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551234767575</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cCcx">
+      <created>1551235214626</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551235214626</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cCcx">
+      <created>1551236049823</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551236049823</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cCcx">
+      <created>1551341708368</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551341708368</updated>
+    </task>
+    <task id="LOCAL-00007" summary="cCcx">
+      <created>1551342832066</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551342832066</updated>
+    </task>
+    <task id="LOCAL-00008" summary="cCcx">
+      <created>1551343026904</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551343026905</updated>
+    </task>
+    <task id="LOCAL-00009" summary="cCcx">
+      <created>1552900338244</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552900338244</updated>
+    </task>
+    <task id="LOCAL-00010" summary="cCcx">
+      <created>1553136332325</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553136332325</updated>
+    </task>
+    <task id="LOCAL-00011" summary="cCcx">
+      <created>1553617565605</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1553617565606</updated>
+    </task>
+    <task id="LOCAL-00012" summary="cCcx">
+      <created>1554218744328</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554218744328</updated>
+    </task>
+    <task id="LOCAL-00013" summary="4.18  基本完成  折线图修复">
+      <created>1555570631568</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555570631568</updated>
+    </task>
+    <task id="LOCAL-00014" summary="4.18  基本完成  折线图修复">
+      <created>1558445424656</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1558445424656</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestMerge_testadd - 2019.04.17 at 15h 05m 41s.xml">
+      <configuration name="TestMerge.testadd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMerge_testadd - 2019.04.17 at 15h 05m 55s.xml">
+      <configuration name="TestMerge.testadd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMerge_testadd - 2019.04.17 at 15h 08m 42s.xml">
+      <configuration name="TestMerge.testadd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMerge_testadd - 2019.04.17 at 15h 09m 21s.xml">
+      <configuration name="TestMerge.testadd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMerge_testadd - 2019.04.17 at 15h 11m 18s.xml">
+      <configuration name="TestMerge.testadd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMerge_testadd - 2019.04.17 at 15h 13m 33s.xml">
+      <configuration name="TestMerge.testadd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserService_testIsNamePassword - 2019.04.19 at 16h 45m 25s.xml">
+      <configuration name="TestUserService.testIsNamePassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserService_testIsNamePassword - 2019.04.19 at 16h 47m 58s.xml">
+      <configuration name="TestUserService.testIsNamePassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRecord_testAdd - 2019.04.19 at 17h 02m 54s.xml">
+      <configuration name="TestRecord.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRecord_testAdd - 2019.04.19 at 17h 10m 59s.xml">
+      <configuration name="TestRecord.testAdd" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="161872000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" weight="0.14098361" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8343419" weight="0.2704918" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.58018154" weight="0.4704918" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.5770492" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49848714" weight="0.04918033" />
+      <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.49621785" weight="0.17213115" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.16565809" side_tool="true" weight="0.43770492" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49924356" weight="0.21311475" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49848714" weight="0.23770492" />
+      <window_info anchor="bottom" id="SQL Generator" order="17" weight="0.5662848" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.19515885" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.34591836" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cCcr" />
+    <MESSAGE value="cCcx" />
+    <MESSAGE value="4.18  基本完成  折线图修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.18  基本完成  折线图修复" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controller/RecordController.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ServiceImpl/MergeGoodsWarehouseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-631">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.5/mybatis-3.2.5.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="14" column="145" selection-start-line="14" selection-start-column="145" selection-end-line="14" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="31" column="94" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.18.RELEASE/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="115" column="263" selection-start-line="115" selection-start-column="263" selection-end-line="115" selection-end-column="263" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="69" column="43" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestMapper/TestWarehouseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/WarehouseLogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06ae1f9a-5244-4ed4-bd06-a9ddc3b95b75/schema/ingrun02/table/warehouse_log" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ServiceImpl/WarehouseLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/WarehouseLogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ServiceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/load/delUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06ae1f9a-5244-4ed4-bd06-a9ddc3b95b75/schema/ingrun02/table/user" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Po/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestMapper/TestMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/MergeGoodsWarehouseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/load/Log/AllLog.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="153" column="14" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/mainPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="26" selection-start-line="26" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2772">
+            <caret line="126" column="14" selection-start-line="126" selection-start-column="14" selection-end-line="126" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/load/GoodsPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/load/GoodsQuery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06ae1f9a-5244-4ed4-bd06-a9ddc3b95b75/schema/ingrun02/table/goods" />
+    <entry file="das://06ae1f9a-5244-4ed4-bd06-a9ddc3b95b75/schema/ingrun02/table/merge_goods_warehouse" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/RecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3564">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/WarehouseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestMapper/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" selection-start-line="16" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestService/TestRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/MergeGoodsWarehouse.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
+          <folding>
+            <element signature="e#1921#1927#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Shiro/erroe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="32" selection-start-line="10" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/load/Chart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Shiro/IAuthorizingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestService/TestUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/load/CarGoodsPut.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mapper/ClientMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/load/addUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3542">
+          <caret line="161" column="23" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/load/ClientPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/403.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7634">
+          <caret line="347" column="17" selection-start-line="347" selection-start-column="17" selection-end-line="347" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ingRun02:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ingRun02</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
